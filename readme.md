@@ -17,8 +17,7 @@ https://github.com/user-attachments/assets/789d84fd-7606-4563-a2ce-048011e4fdad
 
 ## Implementation & Usage
 
-1. Convert tomogram & segmentation mask to memory map
-   - We provide an example implementation to convert `.nc` files into memory map in `merge_nc.py`.
+1. Convert tomogram & segmentation mask to `numpy` memory map (in case out-of-memory issue)
 2. Extract particles & convert them into meshes
    - Run `separate.py` to extract each particle and its mask so that we can convert them into meshes.
 3. Simulate particle physics in Blender
@@ -31,4 +30,4 @@ https://github.com/user-attachments/assets/789d84fd-7606-4563-a2ce-048011e4fdad
 
 - Follow the workflow above to run the code locally.  
 - Use `python3 program.py --help` to view available commands.  
-- Example: `python3 preprocess.py --help`.  
+  - Example: `python3 reconstruct.py --help`.  
