@@ -6,7 +6,9 @@ This repository provides a workflow for **synthetic particle pack generation**, 
 
 ### Simulation process
 
-https://github.com/user-attachments/assets/789d84fd-7606-4563-a2ce-048011e4fdad
+
+https://github.com/user-attachments/assets/a5b87a04-eabd-4149-a761-f11d7f94f292
+
 
 ### Generated tomogram-mask pairs
 
